@@ -2,17 +2,21 @@
 	"name": "attendance_iiit",
 	"private": true,
 	"version": "0.0.0",
+	"homepage": "https://vedabahu.github.io/attendenceCalculator/",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"predeploy" : "npm run build",
+    	"deploy" : "gh-pages -d dist"
 	},
 	"devDependencies": {
 		"@skeletonlabs/skeleton": "^3.1.0",
 		"@skeletonlabs/skeleton-svelte": "^1.0.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@tailwindcss/forms": "^0.5.10",
+		"gh-pages": "^6.3.0",
 		"svelte": "^5.20.2",
 		"vite": "^6.2.0"
 	},
