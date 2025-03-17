@@ -1,0 +1,17 @@
+{
+    "formatter": {
+        "enabled": true,
+        "indentStyle": "space"
+    },
+    "linter": {
+        "enabled": true
+    },
+    "organizeImports": {
+        "enabled": false
+    },
+    "json": {
+        "formatter": {
+            "enabled": false
+        }
+    }
+}
