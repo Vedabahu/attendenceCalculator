@@ -1,6 +1,6 @@
 # Attendance Calculator
 
-I was tired of manually calculating it. Why do something thing the _normal way_ when you can _automate it_.
+I was tired of manually calculating it. Why do something thing the **normal way** which takes **10 minutes** when you can **automate it** which takes **4 hours** .
 It uses a simple formula to find the attendance percentage. 
 
 ## Features
@@ -13,5 +13,5 @@ It uses a simple formula to find the attendance percentage.
 git clone https://github.com/Vedabahu/attendenceCalculator.git
 cd attendenceCalculator
 npm i
-npm run dev # starts the server
+npm run dev # starts the vite server
 ```
