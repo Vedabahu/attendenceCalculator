@@ -81,6 +81,7 @@
           type="number"
           placeholder="4"
           bind:value={missedLectures}
+          min="0"
         />
       </div>
       <div class="input-group grid-cols-[auto_1fr_auto] my-5">
@@ -90,6 +91,7 @@
           type="number"
           placeholder="1"
           bind:value={missedTutorials}
+          min="0"
         />
       </div>
       <div class="input-group grid-cols-[auto_1fr_auto] my-5">
@@ -99,6 +101,7 @@
           type="number"
           placeholder="0"
           bind:value={missedLabs}
+          min="0"
         />
       </div>
     </div>
@@ -111,6 +114,7 @@
           type="number"
           placeholder="13"
           bind:value={totalLectures}
+          min="0"
         />
       </div>
       <div class="input-group grid-cols-[auto_1fr_auto] my-5">
@@ -120,6 +124,7 @@
           type="number"
           placeholder="7"
           bind:value={totalTutorials}
+          min="0"
         />
       </div>
       <div class="input-group grid-cols-[auto_1fr_auto] my-5">
@@ -129,6 +134,7 @@
           type="number"
           placeholder="2"
           bind:value={totalLabs}
+          min="0"
         />
       </div>
     </div>

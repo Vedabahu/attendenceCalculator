@@ -57,13 +57,25 @@
   </div> -->
     <div class="input-group grid-cols-[auto_1fr_auto] my-5">
       <span class="ig-cell preset-tonal text-lg w-60">Missed Hours</span>
-      <input class="input" type="number" placeholder="4" bind:value={missed} />
+      <input
+        class="input"
+        type="number"
+        placeholder="4"
+        bind:value={missed}
+        min="0"
+      />
     </div>
     <div class="input-group grid-cols-[auto_1fr_auto] my-5">
       <span class="ig-cell preset-tonal text-lg w-60"
         >Total Hours Conducted</span
       >
-      <input class="input" type="number" placeholder="14" bind:value={total} />
+      <input
+        class="input"
+        type="number"
+        placeholder="14"
+        bind:value={total}
+        min="0"
+      />
     </div>
   </div>
 
