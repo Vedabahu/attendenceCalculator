@@ -63,7 +63,7 @@
         bind:value={percent}
         class="input"
         type="number"
-        placeholder="75"
+        placeholder="85"
         min="0"
         max="100"
       />
